@@ -6,12 +6,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 font-size:100%;
 font:inherit;
 vertical-align:baseline
+
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 display:block
 }
 body{
 line-height:1
+
 }
 ol,ul{
 list-style:none
@@ -29,8 +31,10 @@ border-spacing:0
 }
 *{
 box-sizing:border-box
+
 }
 .page{
+background-color: #100c14;
 font-family:Arial;
 height:100%;
 width:100%;
@@ -41,6 +45,7 @@ justify-content:flex-start;
 -ms-flex-align:center;
 align-items:center;
 overflow:hidden
+
 }
 .page__nav{
 background-color:#17141f;
@@ -103,7 +108,7 @@ margin-top:10px
 }
 .page__main .viewer__stats .stats__number{
 font-size:1.2em;
-color:indigo
+color: #9147ff;
 }
 .page__main .viewer__stats .stats__number--kpm{
 margin-right:auto
@@ -111,6 +116,8 @@ margin-right:auto
 .page__main .shop__container{
 width:100%;
 display:-ms-flexbox;
+max-height: 100%; /* Ajusta la altura máxima según tus necesidades */
+  overflow-y: auto;
 display:flex;
 -ms-flex-align:center;
 align-items:center;
@@ -122,10 +129,10 @@ flex-wrap:wrap
 .page__main .shop__container .shopitem{
 position:relative;
 text-align:center;
-color:indigo;
+color:#9147ff;
 width:350px;
 height:225px;
-border:2px solid indigo;
+border:2px solid #9147ff;
 margin:10px;
 font-size:1.3em
 }
@@ -157,7 +164,7 @@ margin-right:auto
 .page__main .shop__container .shopitem__title{
 margin-top:20px;
 padding-bottom:20px;
-border-bottom:2px solid indigo
+border-bottom:2px solid #9147ff;
 }
 @media screen and (max-width:930px){
 .page__main{
@@ -168,7 +175,7 @@ width:calc(100% - 250px)
 .page__chat{
 -ms-flex-negative:0;
 flex-shrink:0;
-background-color:#efeef1;
+background-color:#18181b;
 width:350px;
 height:100%;
 overflow:auto;
@@ -188,7 +195,8 @@ display:flex;
 align-items:center;
 -ms-flex-pack:center;
 justify-content:center;
-border-bottom:1px solid gray
+border-bottom:1px solid gray;
+color:white;
 }
 .page__chat .chat__placeholder{
 height:50px;
