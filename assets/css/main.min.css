@@ -255,7 +255,8 @@ text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
 animation:a 1s linear;
 font-size:3em;
 color:#fff;
-position:absolute
+position:absolute;
+pointer-events: none;
 }
 
 /*# sourceMappingURL=main.min.css.map */
