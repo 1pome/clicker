@@ -92,10 +92,11 @@ background-color:#000
 transition:all .25s;
 cursor:pointer;
 width:60%;
-max-width:500px
+max-width:500px;
 }
 .page__main .viewer__container .main__viewer .viewer__kappa:active{
 transform:scale(.9)
+
 }
 .page__main .viewer__stats{
 display:-ms-flexbox;
